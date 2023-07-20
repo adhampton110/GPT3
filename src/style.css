@@ -91,4 +91,50 @@ input {
 /* What is GPT3 */
 .gpt3 {
   background-color: #042C54;
+  padding: 64px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.gpt3 p {
+  font-size: 16px;
+}
+
+.gpt3-top {
+  display: flex;
+  align-items: start;
+  gap: 150px;
+  margin-top: 12px;
+}
+.gpt3-top * {
+  margin: 0;
+}
+.gpt3-top h3 {
+  font-size: 24px;
+}
+.gpt3-top p{
+  max-width: 730px;
+  line-height: 30px
+}
+
+.gpt3-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gpt3-middle h2 { 
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 34px;
+  max-width: 472px;
+}
+.gpt3-middle p {
+  color: #FF8A71;
+}
+
+.gpt3-bottom {
+  display: flex;
 }

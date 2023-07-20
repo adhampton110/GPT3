@@ -2,6 +2,7 @@
   import Head from './layouts/Head.vue';
   import GPTGroupData from './data/GPTGroupData.json';
   import GPT3Group from './components/GPT3Group.vue';
+  import GradientLine from './components/GradientLine.vue';
   import OrangeButton from './components/OrangeButton.vue';
 </script>
 
@@ -39,19 +40,21 @@
 
   <!-- What is GPT3 -->
   <section class="gpt3">
-    <hr/>
-    <div class="gpt3-top">
-      <h3>What is GPT-3</h3>
-      <p>
-        We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.
-      </p>
+    <div class="gpt3-top-wrapper">
+      <GradientLine/>
+      <div class="gpt3-top">
+        <h3>What is GPT-3</h3>
+        <p>
+          We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.
+        </p>
+      </div>
     </div>
     <div class="gpt3-middle">
       <h2>The possibilities are beyond your imagination</h2>
       <p>Explore the Library</p>
     </div>
-    <div class="gpt3-bottom" v-for="obj in GPTGroupData">
-      <GPT3Group :title="obj.title" :msg="obj.message"/>
+    <div class="gpt3-bottom">
+      <GPT3Group v-for="obj in GPTGroupData" :title="obj.title" :msg="obj.message"/>
     </div>
   </section>
 </template>
