@@ -138,3 +138,28 @@ input {
 .gpt3-bottom {
   display: flex;
 }
+
+/* Future */
+.future {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0;
+}
+.future h2 { 
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 34px;
+  max-width: 472px;
+  margin-top: 0;
+}
+.future-left p {
+  color: #FF8A71;
+}
+.future-right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

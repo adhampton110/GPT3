@@ -1,8 +1,10 @@
 <script setup>
   import Head from './layouts/Head.vue';
   import GPTGroupData from './data/GPTGroupData.json';
+  import FutureData from './data/FutureData.json';
   import GPT3Group from './components/GPT3Group.vue';
   import GradientLine from './components/GradientLine.vue';
+  import FutureGroup from './components/FutureGroup.vue';
   import OrangeButton from './components/OrangeButton.vue';
 </script>
 
@@ -55,6 +57,17 @@
     </div>
     <div class="gpt3-bottom">
       <GPT3Group v-for="obj in GPTGroupData" :title="obj.title" :msg="obj.message"/>
+    </div>
+  </section>
+
+  <!-- Future is Now -->
+  <section class="future">
+    <div class="future-left">
+      <h2>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h2>
+      <p>Request Early Access to Get Started</p>
+    </div>
+    <div class="future-right">
+      <FutureGroup v-for="obj in FutureData" :title="obj.title" :msg="obj.message"/>
     </div>
   </section>
 </template>
