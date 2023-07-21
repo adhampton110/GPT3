@@ -70,4 +70,13 @@
       <FutureGroup v-for="obj in FutureData" :title="obj.title" :msg="obj.message"/>
     </div>
   </section>
+
+  <!-- Register -->
+  <div class="register">
+    <div>
+      <p>Request Early Access to Get Started</p>
+      <h3>Register today & start exploring the endlesss possibilities</h3>
+    </div>
+    <button class="getStarted">Get Started</button>
+  </div>
 </template>
