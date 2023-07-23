@@ -2,11 +2,12 @@
   import Header from './layouts/Header/Header.vue';
   import GPTGroupData from './data/GPTGroupData.json';
   import FutureData from './data/FutureData.json';
+  import CardLarge from './components/CardLarge.vue';
+  import CardSmall from './components/CardSmall.vue';
   import GPT3Group from './components/GPT3Group.vue';
   import GradientLine from './components/GradientLine.vue';
   import FutureGroup from './components/FutureGroup.vue';
   import Footer from './layouts/Footer/Footer.vue';
-  import OrangeButton from './components/OrangeButton.vue';
 </script>
 
 <template>
@@ -80,6 +81,22 @@
     </div>
     <button class="getStarted">Get Started</button>
   </div>
+
+  <!-- Blog -->
+  <section class="blog">
+    <h1>A lot is happening,<br> We are blogging about it</h1>
+    <div class="blog-wrapper">
+      <CardLarge imageName="blog01.png" date="Sept 26,2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+      <div class="small-card-wrapper">
+        <CardSmall imageName="blog02" date="Sept 26,2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+      <CardSmall imageName="blog03" date="Sept 26,2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+      </div>
+      <div class="small-card-wrapper">
+        <CardSmall imageName="blog04" date="Sept 26,2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+      <CardSmall imageName="blog05" date="Sept 26,2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?"/>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <section class="footer">
