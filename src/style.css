@@ -29,6 +29,7 @@
   font-weight: 700;
   line-height: normal;
   font-style: normal;
+  cursor: pointer;
 }
 
 /* hero */
@@ -164,8 +165,45 @@ input {
   gap: 40px;
 }
 
+/* Possibilities */
+.possibilities {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 15px;
+}
+.possibilities img {
+  width: 475px;
+  height: 542.691px;
+}
+.possibility-content {
+  width:480px;
+}
+p.bold {
+  font-weight: 500;
+  color: #71E5FF;
+}
+.possibility-content p {
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+.possibility-content a {
+  color: #FF8A71;
+  text-decoration: none;
+}
+.possibilities h3 {
+font-size: 34px;
+font-weight: 800;
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+line-height: 45px; /* 132.353% */
+}
 /* Reigster */
 .register {
+  margin-top: 150px;
   height: 172px;
   border-radius: 10.724px;
   display: flex;
@@ -196,7 +234,7 @@ input {
 }
 /* Blog */
 .blog {
-  margin: 150px 0;
+  margin: 150px 0px;
 }
 .blog-wrapper {
   display: flex;
@@ -227,4 +265,5 @@ input {
   background-color: #031B34;
   font-size: 18px;
   margin-bottom: 180px;
+  cursor: pointer;
 }

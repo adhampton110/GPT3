@@ -38,6 +38,7 @@ button {
   background-color: rgba(255, 72, 32, 1);
   border-radius: 8px;
   border: none;
+  cursor:pointer;
 }
 
 .links {
