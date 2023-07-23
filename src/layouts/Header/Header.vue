@@ -1,6 +1,6 @@
 <template>
     <header>
-    <img src="../assets/logo.svg" alt="logo">
+    <img src="../../assets/logo.svg" alt="logo">
     <div class="links">
       <a href="#">Home</a>
       <a href="#">What is GPT?</a>

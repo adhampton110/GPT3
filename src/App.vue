@@ -1,16 +1,17 @@
 <script setup>
-  import Head from './layouts/Head.vue';
+  import Header from './layouts/Header/Header.vue';
   import GPTGroupData from './data/GPTGroupData.json';
   import FutureData from './data/FutureData.json';
   import GPT3Group from './components/GPT3Group.vue';
   import GradientLine from './components/GradientLine.vue';
   import FutureGroup from './components/FutureGroup.vue';
+  import Footer from './layouts/Footer/Footer.vue';
   import OrangeButton from './components/OrangeButton.vue';
 </script>
 
 <template>
   <!-- Header -->
-  <Head></Head>
+  <Header/>
 
   <!-- Hero -->
   <section class="hero">
@@ -79,4 +80,12 @@
     </div>
     <button class="getStarted">Get Started</button>
   </div>
+
+  <!-- Footer -->
+  <section class="footer">
+    <h1>Do you want to step in to the future before others</h1>
+    <button>Request Early Access</button>
+    <Footer/>
+  </section>
+  
 </template>
