@@ -1,12 +1,15 @@
 <script setup>
-  import Header from './layouts/Header/Header.vue';
+  //Data Imports
   import GPTGroupData from './data/GPTGroupData.json';
   import FutureData from './data/FutureData.json';
+  //Component Imports
   import CardLarge from './components/CardLarge.vue';
   import CardSmall from './components/CardSmall.vue';
   import GPT3Group from './components/GPT3Group.vue';
   import GradientLine from './components/GradientLine.vue';
   import FutureGroup from './components/FutureGroup.vue';
+  //Layout Imports
+  import Header from './layouts/Header/Header.vue';
   import Footer from './layouts/Footer/Footer.vue';
 </script>
 
